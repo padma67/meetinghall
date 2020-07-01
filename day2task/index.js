@@ -34,6 +34,7 @@ app.get("/bookedCustomers", (req, res) => {
     return {
       CustomerName: data.CustomerName,
       RoomId: data.RoomId,
+      Date:data.Date
     };
   });
   res.json(customer);
